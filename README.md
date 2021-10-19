@@ -1,5 +1,8 @@
-## Curso: MBA Full Stack Developer -  Automated Software Testing
-### Aluna: Natalia Fernanda Milani de Moraes
+## **Curso:** *MBA Full Stack Developer -  Automated Software Testing*
+### **Prof:** *Joao Henrique Victorino da Silva*
+### **Aluna:** *Natalia Fernanda Milani de Moraes*
+
+
 
 Projeto referente a atividade da matéria de Automated Software Testing, para desenvolver uma funcionalidade usando a metodologia TDD (Test Driven Development), no qual identifique se uma palavra é palíndromo. 
 
