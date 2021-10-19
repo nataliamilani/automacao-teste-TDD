@@ -1,8 +1,6 @@
 package com.impacta.automacaoteste.model;
 
-import com.impacta.automacaoteste.model.Palindromo;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class PalindromoTest {
@@ -15,12 +13,10 @@ class PalindromoTest {
 
         //Arrange
         Palindromo objAppPalindromo = new Palindromo("mAlAyAlam");
-
         //Act
         boolean isPalindromo = objAppPalindromo.validaPalindromo(objAppPalindromo.getPalavraFrase());
-
         //Assert
-        assertEquals(true, isPalindromo);
+        assertTrue(isPalindromo);
 
     }
 
@@ -33,12 +29,10 @@ class PalindromoTest {
 
         //Arrange
         Palindromo objAppPalindromo = new Palindromo("madam");
-
         //Act
         boolean isPalindromo = objAppPalindromo.validaPalindromo(objAppPalindromo.getPalavraFrase());
-
         //Assert
-        assertEquals(true, isPalindromo);
+        assertTrue(isPalindromo);
 
     }
 
@@ -47,17 +41,15 @@ class PalindromoTest {
 
         //Arrange
         Palindromo objAppPalindromo = new Palindromo("BOB");
-
         //Act
         boolean isPalindromo = objAppPalindromo.validaPalindromo(objAppPalindromo.getPalavraFrase());
-
         //Assert
-        assertEquals(true, isPalindromo);
+        assertTrue(isPalindromo);
 
     }
 
     @Test
-    public void testFrasesPalindromoContendoPontuacoes(){
+    public void testFrasePalindromoContendoPontuacoes(){
 
         //“Able was I, ere I saw Elba” - ok
         //“Step on no pets.” - ok
@@ -70,19 +62,15 @@ class PalindromoTest {
         Palindromo objAppPalindromo = new Palindromo("Top spot!");
         //Act
         boolean isPalindromo = objAppPalindromo.validaPalindromo(objAppPalindromo.getPalavraFrase());
-
-        System.out.println(objAppPalindromo.getPalavraFrase());
-
         //Assert
-        assertEquals(true, isPalindromo);
+        assertTrue(isPalindromo);
 
     }
-
 
     //---------------------TESTE NEGATIVOS
 
     @Test
-    public void testPalavraNaoPalindromo(){
+    public void testPalavraFraseNaoPalindromo(){
 
         //“xyz” - ok
         //“elephant” - ok
@@ -93,12 +81,10 @@ class PalindromoTest {
 
         //Arrange
         Palindromo objAppPalindromo = new Palindromo("Wild imagination!");
-
         //Act
         boolean isPalindromo = objAppPalindromo.validaPalindromo(objAppPalindromo.getPalavraFrase());
-
         //Assert
-        assertEquals(false, isPalindromo);
+        assertFalse(isPalindromo);
 
     }
 
