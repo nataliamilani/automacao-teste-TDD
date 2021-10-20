@@ -1,6 +1,6 @@
 ## **Curso:** *MBA Full Stack Developer -  Automated Software Testing*
 ### **Prof:** *Joao Henrique Victorino da Silva*
-### **Aluna:** *Natalia Fernanda Milani de Moraes*
+### **Alunas:** *Natalia Fernanda Milani de Moraes* e *Natalia de Jesus Silva*
 
 
 
