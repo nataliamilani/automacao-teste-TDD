@@ -1,8 +1,11 @@
 ## **Curso:** *MBA Full Stack Developer -  Automated Software Testing*
-### **Prof:** *Joao Henrique Victorino da Silva*
-### **Alunas:** *Natalia Fernanda Milani de Moraes* e *Natalia de Jesus Silva*
+#### **Prof:** 
+- *Joao Henrique Victorino da Silva*
+#### **Alunas:** 
+- *Natalia Fernanda Milani de Moraes*
+- *Natalia de Jesus Silva*
 
-
+---------------------------------------------------------
 
 Projeto referente a atividade da matéria de Automated Software Testing, para desenvolver uma funcionalidade usando a metodologia TDD (Test Driven Development), no qual identifique se uma palavra é palíndromo. 
 
