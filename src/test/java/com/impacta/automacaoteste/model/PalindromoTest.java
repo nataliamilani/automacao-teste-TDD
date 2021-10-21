@@ -49,7 +49,7 @@ class PalindromoTest {
     }
 
     @Test
-    public void testFrasePalindromoContendoPontuacoes(){
+    public void testFrasePalindromoContendoPontuacoesAcentuacoes(){
 
         //“Able was I, ere I saw Elba” - ok
         //“Step on no pets.” - ok
@@ -57,11 +57,14 @@ class PalindromoTest {
         //“Madam I'm Adam” - ok
         //“Step on no pets.” - ok
         //“Top spot!” - ok
+        //"Socorram-me, subi no ônibus em Marrocos" - ok
 
         //Arrange
-        Palindromo objAppPalindromo = new Palindromo("Top spot!");
+        Palindromo objAppPalindromo = new Palindromo("Socorram-me, subi no ônibus em Marrocos");
         //Act
         boolean isPalindromo = objAppPalindromo.validaPalindromo(objAppPalindromo.getPalavraFrase());
+
+        System.out.println(objAppPalindromo.getPalavraFrase());
         //Assert
         assertTrue(isPalindromo);
 

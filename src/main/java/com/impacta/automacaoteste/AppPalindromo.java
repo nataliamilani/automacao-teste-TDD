@@ -17,7 +17,7 @@ public class AppPalindromo {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Informe a palavra a ser validada: ");
-        String inputPalavra = scanner.next();
+        String inputPalavra = scanner.nextLine();
 
         Palindromo validaPalavra = new Palindromo(inputPalavra);
 
